@@ -1,0 +1,21 @@
+/** Website image paths. Change a filename here after adding a file under public/images. */
+export const media = {
+  logo: "/images/branding/hsin-travel-logo.png",
+  hero: "/images/hero/hero-langkawi.jpg",
+  about: "/images/about/about-traveller.jpg",
+  langkawi: "/images/tours/langkawi-beach.jpg",
+  penang: "/images/tours/penang.jpg",
+  singapore: "/images/tours/singapore.jpg",
+  thailand: "/images/tours/thailand.jpg",
+  cameron: "/images/tours/cameron-highlands.jpg",
+  sabah: "/images/tours/sabah.jpg",
+  kualaLumpur: "/images/tours/kuala-lumpur.jpg",
+  fleetLineup: "/images/fleet/tourist-vans-lineup.jpg",
+  vanLuggage: "/images/fleet/tourist-van-luggage.jpg",
+  hyFront: "/images/fleet/hyundai-front.jpg",
+  hyRear: "/images/fleet/hyundai-rear.jpg",
+  hyPassengerSeats: "/images/fleet/hyundai-beige-passenger-seats.jpg",
+  hyArmrests: "/images/fleet/hyundai-seats-armrests.jpg",
+  hyFrontSeats: "/images/fleet/hyundai-front-seats.jpg",
+  hyDashboard: "/images/fleet/hyundai-dashboard.jpg",
+} as const;
